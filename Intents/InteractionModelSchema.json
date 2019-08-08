@@ -1,0 +1,137 @@
+{
+    "interactionModel":
+    {
+        "languageModel":
+        {
+            "invocationName": "voice authorize",
+            "intents": [
+            {
+                "name": "AMAZON.CancelIntent",
+                "samples": [
+                    "never mind",
+                    "cancel"
+                ]
+            },
+            {
+                "name": "AMAZON.HelpIntent",
+                "samples": [
+                    "help me",
+                    "help"
+                ]
+            },
+            {
+                "name": "AMAZON.StopIntent",
+                "samples": [
+                    "stop it",
+                    "stop"
+                ]
+            },
+            {
+                "name": "HelloWorldIntent",
+                "slots": [],
+                "samples": [
+                    "hello",
+                    "how are you",
+                    "say hi world",
+                    "say hi",
+                    "hi",
+                    "say hello world",
+                    "say hello"
+                ]
+            },
+            {
+                "name": "AMAZON.NavigateHomeIntent",
+                "samples": [
+                    "start over",
+                    "go back",
+                    "home"
+                ]
+            },
+            {
+                "name": "LoginIntent",
+                "slots": [],
+                "samples": [
+                    "it's a me",
+                    "auth",
+                    "authenticate",
+                    "log in",
+                    "login"
+                ]
+            },
+            {
+                "name": "SetupIntent",
+                "slots": [],
+                "samples": [
+                    "new profile",
+                    "set up new profile",
+                    "set up new user",
+                    "set up new voice",
+                    "new voice",
+                    "new user",
+                    "set up",
+                    "setup"
+                ]
+            },
+            {
+                "name": "AMAZON.MoreIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.NavigateSettingsIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.NextIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.PageUpIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.PageDownIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.PreviousIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.ScrollRightIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.ScrollDownIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.ScrollLeftIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.ScrollUpIntent",
+                "samples": []
+            },
+            {
+                "name": "GetJokeIntent",
+                "slots": [],
+                "samples": [
+                    "tell me a joke",
+                    "play joke",
+                    "get joke",
+                    "joke"
+                ]
+            },
+            {
+                "name": "SSMLTestIntent",
+                "slots": [],
+                "samples": [
+                    "test ssml",
+                    "get ssml",
+                    "ssml"
+                ]
+            }],
+            "types": []
+        }
+    }
+}
